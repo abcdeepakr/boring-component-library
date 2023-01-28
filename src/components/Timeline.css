@@ -1,0 +1,38 @@
+
+
+.timeline-container__item{
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.line{
+  height: auto;
+  background-color: black;
+  width: 0.2em;
+}
+
+.line::before{
+  content:"🟢";
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.timeline-item-content{
+  padding: 30px 5px 30px 10px;
+  width: 100%;
+}
+.timeline-item-date{
+  position: relative;
+  margin-top: 35px;
+  padding: 0px 20px;
+  width: 20%;
+  font-size: 1rem;
+  text-align: right;
+}
+.item-content__title{
+  margin-bottom: 10px;
+}
+
+.item-content__body{
+  min-width: 200px;
+}

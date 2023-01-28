@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{ReactNode,FC} from 'react'
 
-function Timeline() {
+import TimelineItem from '../TimelineItem/TimelineItem'
+export interface TimeLineProps {
+  children: ReactNode
+}
+
+const Timeline: FC<TimeLineProps> =({children}:TimeLineProps) => {
   return (
-    <div>Timeline</div>
+    <>
+      {children}
+    </>
   )
 }
 
