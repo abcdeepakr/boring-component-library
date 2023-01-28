@@ -20,15 +20,16 @@ export const MainTimeline = Template.bind({});
 MainTimeline.args = {
   children: (
     <TimelineItem>
-      <TimelineItemDate>22 Jan, 2023</TimelineItemDate>
+      <TimelineItemDate>28 Jan, 2023</TimelineItemDate>
       <Separator />
       <TimelineItemContent>
-        <TimelineItemTitle>Title</TimelineItemTitle>
+        <TimelineItemTitle>Today was a good day</TimelineItemTitle>
         <TimelineItemBody>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem vel nostrum, voluptas quo aspernatur sed! Nesciunt
-          ipsa, et, culpa excepturi aliquid vero sunt, asperiores eveniet saepe
-          omnis quaerat dolorem tempore?
+        Seven, even back do' Lil Joe
+            I picked up the cash flow
+            Then we played bones, and I'm yellin' "Domino!"
+            Plus nobody I know got killed in South Central LA
+            Today was a good day!
         </TimelineItemBody>
       </TimelineItemContent>
     </TimelineItem>
