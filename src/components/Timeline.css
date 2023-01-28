@@ -34,8 +34,18 @@
 }
 .item-content__title{
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .item-content__body{
   min-width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline-item-date{
+    font-size: 14px;
+    width: 30%;
+    padding: 0px 10px 0px 0px;
+    text-align: left;
+  }
 }
