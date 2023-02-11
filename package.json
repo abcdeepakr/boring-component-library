@@ -1,6 +1,6 @@
 {
   "name": "@deepakr-28/boring-component-library",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
