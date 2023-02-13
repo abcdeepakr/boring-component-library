@@ -8,6 +8,9 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/deepakr-28"
+  },
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
